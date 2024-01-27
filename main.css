@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+    }
+
+form{
+    padding-right: 16px;
+    }
+
+.form-campo {
+    margin-bottom: 8px;
+}
+
+.form-campo label {
+    font-weight: bold;
+}
+
+.form-campo input {
+    display: flex;
+    padding: 8px 0;
+}
+
+section form {
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+section button{
+    cursor: pointer;
+}
